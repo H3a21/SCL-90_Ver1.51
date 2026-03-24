@@ -1,0 +1,75 @@
+body {
+    font-family: -apple-system;
+    background: #f5f7fa;
+}
+.container {
+    max-width: 700px;
+    margin: 40px auto;
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+}
+.intro {
+    background: #fff7e6;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+#progress {
+    text-align: center;
+    margin-bottom: 15px;
+}
+.question {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.options label {
+    display: block;
+    margin: 10px 0;
+    cursor: pointer;
+}
+.options input {
+    display: none;
+}
+.options span {
+    display: block;
+    padding: 14px;
+    border-radius: 10px;
+    background: #f0f4ff;
+}
+.options input:checked + span {
+    background: #4CAF50;
+    color: white;
+}
+button {
+    padding: 10px 15px;
+    margin: 10px;
+    background: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 8px;
+}
+.buttons {
+    text-align: center;
+}
+#result {
+    margin-top: 20px;
+}
+/* 表格 */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+th, td {
+    border: 1px solid #ccc;
+    padding: 6px;
+    text-align: center;
+}
+th {
+    background: #f0f4ff;
+}
+.factor-name {
+    font-weight: bold;
+    background: #fafafa;
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <title>SCL-90心理测评系统</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+<div class="container">
+    <h1>SCL-90 心理测试</h1>
+    <div class="intro">
+        <h3>测试说明</h3>
+        <p>请根据最近一周情况选择：</p>
+        <ul>
+            <li>1 = 没有</li>
+            <li>2 = 很轻</li>
+            <li>3 = 中等</li>
+            <li>4 = 偏重</li>
+            <li>5 = 严重</li>
+        </ul>
+    </div>
+    <div id="progress"></div>
+    <div id="questionBox"></div>
+    <div class="buttons">
+        <button id="prevBtn" onclick="prevQuestion()">上一题</button>
+        <button id="nextBtn" onclick="nextQuestion()">下一题</button>
+        <button id="submitBtn" onclick="submitTest()" style="display:none;">
+            提交
+        </button>
+    </div>
+    <div id="result"></div>
+    <canvas id="chart"></canvas>
+    <div id="tableResult"></div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
