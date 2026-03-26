@@ -57,7 +57,7 @@ SCL-90 Ver 1.51
 
 贡献者
 
->HuTuTu
+>H3a21(hujiarui)
 
 免责声明
 
